@@ -30,7 +30,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     transition: .5s ease;
-    transform: translateX(0%);
+    transform: translateX(-.5%);
 }
 .carrousel .puntos{
     display: flex;
