@@ -1,7 +1,12 @@
 const boton = document.querySelector("#boton");
+
 const boton2 = document.querySelector("#boton2");
+
 const boton3 = document.querySelector("#boton3");
+
 const grande = document.querySelector("#grande");
+
+
 
 function cambiarClasesG1() {
     if (!grande.classList.contains("g1")) {
@@ -13,6 +18,9 @@ function cambiarClasesG1() {
     }
 }
 
+
+
+
 function cambiarClasesG2() {
     if (!grande.classList.contains("g2")) {
         grande.classList.remove("g1", "g3");
@@ -22,6 +30,9 @@ function cambiarClasesG2() {
         boton3.classList.remove("activo");
     }
 }
+
+
+
 
 function cambiarClasesG3() {
     if (!grande.classList.contains("g3")) {
