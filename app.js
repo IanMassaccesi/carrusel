@@ -6,6 +6,13 @@ const boton3 = document.querySelector("#boton3");
 
 const grande = document.querySelector("#grande");
 
+const funcionesCambioClases = [
+    cambiarClasesG2,
+    cambiarClasesG3,
+    cambiarClasesG4,
+    cambiarClasesG5,
+    cambiarClasesG6,
+];
 
 
 function cambiarClasesG1() {
@@ -47,3 +54,7 @@ function cambiarClasesG3() {
 boton.addEventListener("click", cambiarClasesG1);
 boton2.addEventListener("click", cambiarClasesG2);
 boton3.addEventListener("click", cambiarClasesG3);
+
+funcionesCambioClases.forEach((funcion, index) => {
+    setTimeout(funcion, (index + 1) * 3000);
+});
