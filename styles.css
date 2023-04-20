@@ -1,6 +1,4 @@
 *{
-    margin: 0px;
-    padding: 0px;
     list-style: none;
 }
 body{
@@ -17,7 +15,6 @@ body{
     height: 80%;
     width: 25%;
     border-radius: 20px;
-
 }
 .carrousel img{
     width: calc( 100% / 3 - 2em);
@@ -37,8 +34,6 @@ body{
     align-items: center;
     justify-content: center;
     padding-top: 5%;
-   
-
 }
 .carrousel .punto{
     width:  1em;

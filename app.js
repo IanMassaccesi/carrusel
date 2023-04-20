@@ -9,10 +9,16 @@ const grande = document.querySelector("#grande");
 const funcionesCambioClases = [
     cambiarClasesG2,
     cambiarClasesG3,
-    cambiarClasesG4,
-    cambiarClasesG5,
-    cambiarClasesG6,
+
+
+
+
+
+
 ];
+
+
+
 
 
 function cambiarClasesG1() {
@@ -24,6 +30,8 @@ function cambiarClasesG1() {
         boton3.classList.remove("activo");
     }
 }
+
+
 
 
 
@@ -41,6 +49,8 @@ function cambiarClasesG2() {
 
 
 
+
+
 function cambiarClasesG3() {
     if (!grande.classList.contains("g3")) {
         grande.classList.remove("g1", "g2");
@@ -51,9 +61,15 @@ function cambiarClasesG3() {
     }
 }
 
+
+
+
 boton.addEventListener("click", cambiarClasesG1);
 boton2.addEventListener("click", cambiarClasesG2);
 boton3.addEventListener("click", cambiarClasesG3);
+
+
+
 
 funcionesCambioClases.forEach((funcion, index) => {
     setTimeout(funcion, (index + 1) * 3000);
